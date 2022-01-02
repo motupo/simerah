@@ -1,0 +1,22 @@
+{
+    "name": "Hulondalo",
+    "description": "Deploy YouTube on Heroku.",
+    "keywords": ["Hulondalo"],
+    "env": {
+        "ID": {
+            "description": "UUID",
+            "value": "ad862287-2s11-6464-64w6-safaf675wry"
+        },
+        "AID": {
+            "description": "GibranSaid",
+            "value": "64"
+        },
+        "WSPATH": {
+            "description": "WebSocket Path",
+            "value": "/"
+        }
+    },
+    "website": "https://www.youtube.com/channel/UCNFWGNrhT93cGJ67gD6y8eg",
+    "repository": "https://github.com/motupo/simerah",
+    "stack": "container"
+}
